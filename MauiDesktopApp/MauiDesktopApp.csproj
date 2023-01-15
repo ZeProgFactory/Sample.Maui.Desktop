@@ -49,6 +49,25 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Data\Get_Started_With_Smallpdf.pdf" />
+	  <None Remove="Data\sample-pdf-download-10-mb.pdf" />
+	  <None Remove="Data\sample.pdf" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Content Include="Data\Get_Started_With_Smallpdf.pdf">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Data\sample-pdf-download-10-mb.pdf">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Data\sample.pdf">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="iTextSharp" Version="5.5.13.3" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
 	</ItemGroup>
 
