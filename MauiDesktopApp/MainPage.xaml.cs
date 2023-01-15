@@ -36,7 +36,7 @@ public partial class MainPage : ContentPage
       {
          DisplayAlert("File OK", FileName, "ok");
 
-      https://www.c-sharpcorner.com/UploadFile/a0927b/create-pdf-document-and-convert-to-image-programmatically/
+         //https://www.c-sharpcorner.com/UploadFile/a0927b/create-pdf-document-and-convert-to-image-programmatically/
 
          SplitPDF(FileName);
       }
