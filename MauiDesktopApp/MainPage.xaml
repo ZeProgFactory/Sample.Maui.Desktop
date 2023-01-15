@@ -6,10 +6,10 @@
    Title="Maui desktop Sample">
 
    <!--ColumnDefinitions="auto,*" RowDefinitions="auto,*"-->
-   
+
    <Grid 
       Margin="5">
-      
+
       <Grid.ColumnDefinitions>
          <ColumnDefinition Width="auto"/>
          <ColumnDefinition Width="*"/>
@@ -28,9 +28,9 @@
          <Button Text="sample 1" Margin="5" CommandParameter="1" Clicked="Button_Clicked"/>
 
          <Button Text="sample 2" Margin="5" CommandParameter="2" Clicked="Button_Clicked"/>
-         
+
          <Button Text="sample 3" Margin="5" CommandParameter="3" Clicked="Button_Clicked"/>
-         
+
       </HorizontalStackLayout>
 
 
@@ -39,8 +39,11 @@
 
       <BoxView Grid.Column="1" Grid.Row="1" Margin="5"
               Color="LightGrey" CornerRadius="10" />
-      
-      
+
+
+
+
+
    </Grid>
 
 </ContentPage>

@@ -75,5 +75,6 @@ public partial class MainPage : ContentPage
          reader.Close();
       }
    }
+
 }
 
